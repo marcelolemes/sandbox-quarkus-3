@@ -7,10 +7,11 @@ import org.acme.patterns.strategy.services.HelloService;
 import org.acme.patterns.strategy.services.HelloWorldService;
 import org.slf4j.Logger;
 
+import static org.acme.patterns.general.util.Constants.INSTANCIA_NOVA;
+import static org.acme.patterns.general.util.Constants.INSTANCIA_USADA;
+
 @ApplicationScoped
 public final class HelloFactory {
-    private static final String INSTANCIA_NOVA = "Nova instância criada!";
-    private static final String INSTANCIA_USADA = "Instância em memória Reutilizada!";
     private HelloStrategy helloStrategy;
     @Inject
     Logger logger;
