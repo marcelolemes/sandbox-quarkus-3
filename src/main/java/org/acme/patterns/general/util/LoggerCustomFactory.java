@@ -1,4 +1,4 @@
-package org.acme.patterns.util;
+package org.acme.patterns.general.util;
 
 import jakarta.enterprise.inject.Produces;
 import jakarta.enterprise.inject.spi.InjectionPoint;

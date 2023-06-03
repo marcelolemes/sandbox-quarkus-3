@@ -1,4 +1,4 @@
-package org.acme.patterns.services;
+package org.acme.patterns.general.services;
 
 import org.eclipse.microprofile.health.HealthCheck;
 import org.eclipse.microprofile.health.HealthCheckResponse;
