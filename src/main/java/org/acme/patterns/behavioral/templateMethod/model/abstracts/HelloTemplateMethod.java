@@ -5,5 +5,5 @@ public abstract class HelloTemplateMethod {
     public String hello() {
         return getResponse();
     }
-    abstract String getResponse();
+    protected abstract String getResponse();
 }
