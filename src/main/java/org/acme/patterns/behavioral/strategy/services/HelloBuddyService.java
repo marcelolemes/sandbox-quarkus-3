@@ -1,8 +1,8 @@
-package org.acme.patterns.strategy.services;
+package org.acme.patterns.behavioral.strategy.services;
 
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.ws.rs.core.Response;
-import org.acme.patterns.strategy.model.HelloStrategy;
+import org.acme.patterns.behavioral.strategy.model.HelloStrategy;
 
 @RequestScoped
 public class HelloBuddyService

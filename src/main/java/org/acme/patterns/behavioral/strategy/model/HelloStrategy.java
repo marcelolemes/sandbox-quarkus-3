@@ -1,4 +1,4 @@
-package org.acme.patterns.strategy.model;
+package org.acme.patterns.behavioral.strategy.model;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.ws.rs.core.Response;

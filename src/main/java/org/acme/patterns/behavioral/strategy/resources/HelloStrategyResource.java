@@ -1,4 +1,4 @@
-package org.acme.patterns.strategy.resources;
+package org.acme.patterns.behavioral.strategy.resources;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
@@ -6,8 +6,8 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import org.acme.patterns.strategy.model.HelloFactory;
-import org.acme.patterns.strategy.model.HelloStrategy;
+import org.acme.patterns.behavioral.strategy.model.HelloFactory;
+import org.acme.patterns.behavioral.strategy.model.HelloStrategy;
 
 @Path("/strategy")
 public class HelloStrategyResource {

@@ -1,10 +1,10 @@
-package org.acme.patterns.strategy.model;
+package org.acme.patterns.behavioral.strategy.model;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
-import org.acme.patterns.strategy.services.HelloBuddyService;
-import org.acme.patterns.strategy.services.HelloService;
-import org.acme.patterns.strategy.services.HelloWorldService;
+import org.acme.patterns.behavioral.strategy.services.HelloBuddyService;
+import org.acme.patterns.behavioral.strategy.services.HelloService;
+import org.acme.patterns.behavioral.strategy.services.HelloWorldService;
 import org.slf4j.Logger;
 
 import static org.acme.patterns.general.util.Constants.INSTANCIA_NOVA;
