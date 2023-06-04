@@ -15,6 +15,7 @@ public class AnimalResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return animalService.getAnimal().getSpecies();
+        final String animalName = animalService.getAnimal().getSpecies();
+        return animalName;
     }
 }
