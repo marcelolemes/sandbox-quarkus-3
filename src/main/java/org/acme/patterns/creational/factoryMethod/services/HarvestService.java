@@ -16,12 +16,13 @@ public class HarvestService {
     public String harvest() {
         final Fruit banana = new Banana();
         final Fruit apple = new Apple();
+        final StringBuilder harvestReturn = new StringBuilder();
 
-        final String harvest1 = harvest.harvest(banana);
-        final String harvest2 = harvest.harvest(apple);
-        final String harvestTotal = harvest1.concat(" " + harvest2);
+        harvestReturn.append(harvest.harvest(banana));
+        harvestReturn.append(" ");
+        harvestReturn.append(harvest.harvest(apple));
 
-        return harvestTotal;
+        return harvestReturn.toString();
 
     }
 }

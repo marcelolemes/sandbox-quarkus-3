@@ -12,7 +12,7 @@ import static org.acme.patterns.general.util.Constants.INSTANCIA_USADA;
 
 @ApplicationScoped
 public final class HelloFactory {
-    private HelloStrategy helloStrategy;
+    HelloStrategy helloStrategy;
     @Inject
     Logger logger;
 
