@@ -1,11 +1,10 @@
 package org.acme.patterns.creational.abstractFactory.service;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.enterprise.context.SessionScoped;
-import org.acme.patterns.creational.abstractFactory.model.Animal;
-import org.acme.patterns.creational.abstractFactory.model.AnimalFactory;
-import org.acme.patterns.creational.abstractFactory.model.MonkeyFactory;
-import org.acme.patterns.creational.abstractFactory.model.WhaleFactory;
+import org.acme.patterns.creational.abstractFactory.model.abstracts.Animal;
+import org.acme.patterns.creational.abstractFactory.model.abstracts.AnimalFactory;
+import org.acme.patterns.creational.abstractFactory.model.factory.MonkeyFactory;
+import org.acme.patterns.creational.abstractFactory.model.factory.WhaleFactory;
 
 import java.util.Random;
 @ApplicationScoped

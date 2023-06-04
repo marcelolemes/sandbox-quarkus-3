@@ -1,7 +1,8 @@
-package org.acme.patterns.behavioral.strategy.model;
+package org.acme.patterns.behavioral.strategy.model.concrete;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import org.acme.patterns.behavioral.strategy.model.abstracts.HelloStrategy;
 import org.acme.patterns.behavioral.strategy.services.HelloBuddyService;
 import org.acme.patterns.behavioral.strategy.services.HelloService;
 import org.acme.patterns.behavioral.strategy.services.HelloWorldService;

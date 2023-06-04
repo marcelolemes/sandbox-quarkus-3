@@ -6,8 +6,8 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import org.acme.patterns.behavioral.strategy.model.HelloFactory;
-import org.acme.patterns.behavioral.strategy.model.HelloStrategy;
+import org.acme.patterns.behavioral.strategy.model.concrete.HelloFactory;
+import org.acme.patterns.behavioral.strategy.model.abstracts.HelloStrategy;
 
 @Path("/strategy")
 public class HelloStrategyResource {

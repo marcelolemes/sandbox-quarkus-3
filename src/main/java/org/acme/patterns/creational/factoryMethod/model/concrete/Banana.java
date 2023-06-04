@@ -1,6 +1,8 @@
-package org.acme.patterns.creational.factoryMethod.model.fruit;
+package org.acme.patterns.creational.factoryMethod.model.concrete;
 
-public class Banana implements Fruit{
+import org.acme.patterns.creational.factoryMethod.model.abstracts.Fruit;
+
+public class Banana implements Fruit {
     private String name;
 
     public String getName() {

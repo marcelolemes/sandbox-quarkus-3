@@ -2,10 +2,10 @@ package org.acme.patterns.creational.factoryMethod.services;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
-import org.acme.patterns.creational.factoryMethod.model.fruit.Apple;
-import org.acme.patterns.creational.factoryMethod.model.fruit.Banana;
-import org.acme.patterns.creational.factoryMethod.model.fruit.Fruit;
-import org.acme.patterns.creational.factoryMethod.model.harvest.Harvest;
+import org.acme.patterns.creational.factoryMethod.model.concrete.Apple;
+import org.acme.patterns.creational.factoryMethod.model.concrete.Banana;
+import org.acme.patterns.creational.factoryMethod.model.abstracts.Fruit;
+import org.acme.patterns.creational.factoryMethod.model.abstracts.Harvest;
 
 @ApplicationScoped
 public class HarvestService {

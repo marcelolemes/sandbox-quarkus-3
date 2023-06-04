@@ -1,4 +1,4 @@
-package org.acme.patterns.creational.abstractFactory.model;
+package org.acme.patterns.creational.abstractFactory.model.abstracts;
 
 public abstract class Animal{
     public String species;
