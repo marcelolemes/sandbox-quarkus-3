@@ -1,4 +1,4 @@
-package org.acme.patterns.behavioral.templateMethod.model;
+package org.acme.patterns.behavioral.templateMethod.model.abstracts;
 
 public abstract class HelloTemplateMethod {
 

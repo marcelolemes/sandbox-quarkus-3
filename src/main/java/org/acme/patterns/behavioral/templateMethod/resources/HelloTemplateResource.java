@@ -5,8 +5,8 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import org.acme.patterns.behavioral.templateMethod.model.HelloTemplateMethod;
-import org.acme.patterns.behavioral.templateMethod.model.HelloTemplateMethodChild;
+import org.acme.patterns.behavioral.templateMethod.model.abstracts.HelloTemplateMethod;
+import org.acme.patterns.behavioral.templateMethod.model.concrete.HelloTemplateMethodChild;
 
 @Path("/templatemethod")
 public class HelloTemplateResource {
