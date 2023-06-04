@@ -18,30 +18,30 @@ public final class HelloFactory {
 
     public HelloStrategy getHelloBuddy() {
         if (this.helloStrategy instanceof HelloBuddyService) {
-            logger.info(INSTANCIA_USADA);
+            logger.debug(INSTANCIA_USADA);
         } else {
             helloStrategy = new HelloBuddyService();
-            logger.info(INSTANCIA_NOVA);
+            logger.debug(INSTANCIA_NOVA);
         }
         return this.helloStrategy;
     }
 
     public HelloStrategy getHelloWorld() {
         if (this.helloStrategy instanceof HelloWorldService) {
-            logger.info(INSTANCIA_USADA);
+            logger.debug(INSTANCIA_USADA);
         } else {
             helloStrategy = new HelloWorldService();
-            logger.info(INSTANCIA_NOVA);
+            logger.debug(INSTANCIA_NOVA);
         }
         return this.helloStrategy;
     }
 
     public HelloStrategy getJustHello() {
         if (this.helloStrategy instanceof HelloService) {
-            logger.info(INSTANCIA_USADA);
+            logger.debug(INSTANCIA_USADA);
         } else {
             helloStrategy = new HelloService();
-            logger.info(INSTANCIA_NOVA);
+            logger.debug(INSTANCIA_NOVA);
         }
         return this.helloStrategy;
 
